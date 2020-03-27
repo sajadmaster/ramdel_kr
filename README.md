@@ -1,1 +1,0 @@
-# ramdel_kr
