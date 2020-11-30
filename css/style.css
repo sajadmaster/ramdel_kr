@@ -707,6 +707,7 @@ input[type="radio"] {
 .img_icon {
     margin-left: 5px;
     width: 30px;
+    height: 30px;
 }
 
 .lst_item {

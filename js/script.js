@@ -13,6 +13,7 @@ for (let index = 0; index < item.length; index++) {
         buttons_menu(index);
     });
 }
+
 var c = null;
 function buttons_menu(index) {
     switch (index) {
