@@ -54,7 +54,7 @@ a, a:hover, a:active{ outline:0px !important}
 /* Primary Styles
 ---------------------------------*/
 body {
-	background:#fff;
+	background:#111111;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight:normal;
@@ -98,7 +98,7 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	padding:240px 0;
 }
 .logo{
 	width:130px;
@@ -123,7 +123,7 @@ p{
 .we-create li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
+	font-size:40px;
 	color: #bcbcbc;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -133,6 +133,8 @@ p{
 .we-create li:first-child{
 	background:none;
 }
+
+
 
 .start-button {
 	padding-left: 0px;
@@ -869,4 +871,32 @@ border: 2px solid #fff;
 .delay-12s { 
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
+}
+
+
+/* Style buttons */
+.portfoliobtn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 80px; /* Some padding */
+  font-size: 24px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+	
+}
+
+/* Darker background on mouse-over */
+.portfoliobtn:hover {
+  background-color: RoyalBlue;
+}
+
+.left-icon-holder {
+    position:relative;
+}
+.left-icon-holder .fa {
+    position:absolute;
+    line-height: 24px;
+    top:50%;
+    margin-top: -12px; /* Half of line height to keep left middle postion of container */
+    left: 15px;
 }
