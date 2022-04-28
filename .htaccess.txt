@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ramdel\.kr [NC]
+RewriteRule ^(.*)$ https://www.ramdel.kr/$1 [L,R=301]
+</IfModule>
